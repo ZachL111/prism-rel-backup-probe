@@ -1,0 +1,17 @@
+{
+  "repo": "prism-rel-backup-probe",
+  "thresholds": {
+    "signal": 3,
+    "slack": 1,
+    "confidence": 1,
+    "drag": 4,
+    "ship": 193,
+    "watch": 120
+  },
+  "terms": [
+    "budget pressure",
+    "failure width",
+    "recovery gap",
+    "runbook drift"
+  ]
+}

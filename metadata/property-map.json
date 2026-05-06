@@ -1,0 +1,28 @@
+{
+  "repo": "prism-rel-backup-probe",
+  "language": "Solidity",
+  "category": "Reliability",
+  "goal": "Develop a Solidity command-oriented project for backup scenarios with negative fixtures, human-readable error snapshots, and fixture-scale datasets.",
+  "weights": {
+    "signal": 3,
+    "slack": 1,
+    "confidence": 1,
+    "drag": 4
+  },
+  "thresholds": {
+    "ship": 193,
+    "watch": 120
+  },
+  "properties": [
+    "raising signal cannot reduce score",
+    "raising drag cannot improve score",
+    "lane labels must match configured thresholds",
+    "golden fixture ids must remain unique"
+  ],
+  "fixture_files": [
+    "fixtures/golden/scoreboard.csv",
+    "fixtures/golden/lane-matrix.csv",
+    "fixtures/fuzz/mutations.csv",
+    "fixtures/fuzz/boundary-cases.jsonl"
+  ]
+}
