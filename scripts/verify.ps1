@@ -59,3 +59,5 @@ foreach ($pathPattern in $knownPaths) {
 }
 
 forge test
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-prism-rel-backup-detail.ps1
